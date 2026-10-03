@@ -1,3 +1,6 @@
+Project Overview - https://drive.google.com/file/d/17QE2CrBuPWNpNwm2MrxqsBtm6a81pSE2/view?usp=sharing
+
+
 👗 FASHION AI
 
 An AI-powered fashion content automation platform designed to simplify the process of creating AI-generated fashion images and short-form videos.
