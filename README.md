@@ -1,69 +1,8 @@
-**🎯 Why I Built This**
-Fashion content creation often involves repetitive manual steps.
-I wanted to explore whether AI and browser automation could be combined to create a workflow where a user only needs to provide the basic inputs and the rest of the process can be automated.
-This project combines:
-- AI image generation
-- AI video generation
-- Browser automation
-- React UI
-- Python automation
-- File processing
-
-
-**📁 Project Structure**
-fashion-ai/
-│
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   └── ...
-│
-├── public/
-│
-├── package.json
-├── vite.config.js
-└── README.md
-
-The Python automation is maintained separately from the frontend.
-⚙️ Current Workflow
-
-The current prototype works through a browser-based automation workflow.
-The frontend sends the selected model and product images to the automation service.
-The automation then performs the AI generation workflow through the browser.
-🔮 Future Improvements
-- ☁️ Cloud deployment
-- 📱 Better mobile experience
-- ⚡ Faster generation workflow
-- 👩 Multiple model management
-- 👗 Better product management
-- 🎬 Automated video generation
-- 📥 Automatic final-file delivery
-- 🔐 User authentication
-- 📊 Generation history
-- ☁️ Cloud storage
-- 🚀 Scalable backend
-
-
-⚠️ Project Status
-This project is currently a prototype / work in progress.
-The main goal is to experiment with AI-powered content generation and workflow automation.
-Some automation components currently depend on the local environment and browser session.
-
-👨‍💻 Author
-Rohit Singh
-
-Built as a personal project to explore AI automation, frontend development, and browser-based workflows.
-
-⭐ Feedback
-If you have suggestions, ideas, or improvements, feel free to open an issue or contribute to the project.
-
-
-
-# 👗 FASHION AI
+👗 FASHION AI
 
 An AI-powered fashion content automation platform designed to simplify the process of creating AI-generated fashion images and short-form videos.
 
-## 🚀 Overview
+🚀 Overview
 
 Creating fashion content manually can take a lot of time.
 
@@ -81,21 +20,21 @@ The user selects a model and a product, then starts the automation process.
 
 ---
 
-## ✨ Features
+✨ Features
 
-### 👩 Model Management
+👩 Model Management
 
 - Upload and save model images
 - Support for multiple saved models
 - Select a model for content generation
 - Store model images locally in the browser
 
-### 👗 Product Upload
+👗 Product Upload
 
 - Upload clothing/product images
 - Select the product to use for generation
 
-### 🤖 AI Image Generation
+🤖 AI Image Generation
 
 The automation uses the selected model and product images to generate a new fashion image.
 
@@ -111,7 +50,7 @@ The workflow aims to preserve:
 
 while replacing the clothing with the selected product.
 
-### 🎬 AI Video Generation
+🎬 AI Video Generation
 
 After the AI image is generated, the workflow can continue toward short-form fashion video/reel generation.
 
@@ -122,7 +61,7 @@ The final content can be used for:
 - Fashion marketing
 - Product promotion
 
-### 📊 Automation Status
+📊 Automation Status
 
 The interface provides progress information while the automation is running.
 
@@ -136,7 +75,7 @@ The frontend communicates with the automation service to:
 
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
 
 ### Frontend
 
@@ -202,7 +141,7 @@ The frontend communicates with the automation service to:
 
 
 
-**🎯 Why I Built This**
+🎯 Why I Built This
 Fashion content creation often involves repetitive manual steps.
 I wanted to explore whether AI and browser automation could be combined to create a workflow where a user only needs to provide the basic inputs and the rest of the process can be automated.
 This project combines:
@@ -214,7 +153,7 @@ This project combines:
 - File processing
 
 
-**📁 Project Structure**
+📁 Project Structure**
 fashion-ai/
 │
 ├── src/
@@ -230,6 +169,7 @@ fashion-ai/
 
 The Python automation is maintained separately from the frontend.
 ⚙️ Current Workflow
+
 The current prototype works through a browser-based automation workflow.
 The frontend sends the selected model and product images to the automation service.
 The automation then performs the AI generation workflow through the browser.
@@ -245,12 +185,17 @@ The automation then performs the AI generation workflow through the browser.
 - 📊 Generation history
 - ☁️ Cloud storage
 - 🚀 Scalable backend
+
+
 ⚠️ Project Status
 This project is currently a prototype / work in progress.
 The main goal is to experiment with AI-powered content generation and workflow automation.
 Some automation components currently depend on the local environment and browser session.
+
 👨‍💻 Author
 Rohit Singh
+
 Built as a personal project to explore AI automation, frontend development, and browser-based workflows.
+
 ⭐ Feedback
 If you have suggestions, ideas, or improvements, feel free to open an issue or contribute to the project.
