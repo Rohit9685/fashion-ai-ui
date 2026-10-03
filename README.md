@@ -196,3 +196,61 @@ The frontend communicates with the automation service to:
                  │
                  ▼
              Final Output
+
+
+
+
+
+
+**🎯 Why I Built This**
+Fashion content creation often involves repetitive manual steps.
+I wanted to explore whether AI and browser automation could be combined to create a workflow where a user only needs to provide the basic inputs and the rest of the process can be automated.
+This project combines:
+- AI image generation
+- AI video generation
+- Browser automation
+- React UI
+- Python automation
+- File processing
+
+
+**📁 Project Structure**
+fashion-ai/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── ...
+│
+├── public/
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+The Python automation is maintained separately from the frontend.
+⚙️ Current Workflow
+The current prototype works through a browser-based automation workflow.
+The frontend sends the selected model and product images to the automation service.
+The automation then performs the AI generation workflow through the browser.
+🔮 Future Improvements
+- ☁️ Cloud deployment
+- 📱 Better mobile experience
+- ⚡ Faster generation workflow
+- 👩 Multiple model management
+- 👗 Better product management
+- 🎬 Automated video generation
+- 📥 Automatic final-file delivery
+- 🔐 User authentication
+- 📊 Generation history
+- ☁️ Cloud storage
+- 🚀 Scalable backend
+⚠️ Project Status
+This project is currently a prototype / work in progress.
+The main goal is to experiment with AI-powered content generation and workflow automation.
+Some automation components currently depend on the local environment and browser session.
+👨‍💻 Author
+Rohit Singh
+Built as a personal project to explore AI automation, frontend development, and browser-based workflows.
+⭐ Feedback
+If you have suggestions, ideas, or improvements, feel free to open an issue or contribute to the project.
